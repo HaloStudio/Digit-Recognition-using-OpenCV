@@ -10,8 +10,8 @@ from collections import Counter
 dataset = datasets.fetch_mldata("MNIST Original")
 
 # Extract the features and labels
-features = np.array(dataset.data, 'int16') 
-labels = np.array(dataset.target, 'int')
+features = num.array(dataset.data, 'int16') 
+labels = num.array(dataset.target, 'int')
 
 # Extract the HOG features
 list_hog_fd = []
