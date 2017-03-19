@@ -1,4 +1,4 @@
-# Import the modules
+# Import the required modules
 import cv2
 from sklearn.externals import joblib
 from skimage.feature import hog
